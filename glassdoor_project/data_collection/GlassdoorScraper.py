@@ -205,7 +205,8 @@ def get_jobs(keyword, jobs_num, verbose, path, slp_time, intents):
 			        
 						   
                     df = pd.DataFrame(jobs) #Uncomment to make a dataframe for each page.
-                    df.to_csv('Page ' + str(page_num) + '.csv', sep ='\t') #Uncomment to save each page as a CSV.
+                    #Uncomment to save each page.
+					#df.to_csv('Page ' + str(page_num) + '.csv', sep ='\t') #Uncomment to save each page as a CSV.
                     print("Page " + str(page_num) + " scrapped right.")
                     break
                     				
